@@ -1,4 +1,4 @@
 personal-website
 ================
 
-My personal website at www.dominicpettifer.co.uk
+My personal website at https://dominicpettifer.com

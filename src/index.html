@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <title>Dominic Pettifer</title>
+        <meta name="description" content="Personal website of Dominic Pettifer, software developer working in Scotland."/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="index, follow"/>
+
+        <style>
+            body {
+                font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+                font-size: 16px;
+                color: #444;
+                margin: 0;
+                margin-bottom: 20px;
+                line-height: 1.4em;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            h1, h2, h3, p, ul, ol {
+                margin: 0;
+                margin-bottom: 1em;
+            }
+
+            a {
+                color: #e00000;
+            }
+
+            .root {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+
+            .header {
+                position: relative;
+                margin-bottom: 30px;
+            }
+
+            .header .title-section {
+                position: absolute;
+                left: 50px;
+                bottom: 90px;
+                right: 50px;
+                text-align: center;
+            }
+
+            .header .title-section .title {
+                line-height: 1em;
+                color: #fff;
+                font-size: 50px;
+                text-shadow: 0 5px 10px rgb(0 0 0 / 50%);
+                margin: 0;
+            }
+
+            .header .avatar-container {
+                padding: 0;
+                margin: 0;
+                font-size: 0;
+                line-height: 0;
+                margin-top: -50px;
+            }
+
+            .header .avatar-container .avatar {
+                width: 100%;
+            }
+
+            .main {
+                padding: 0 60px;
+            }
+
+            @media (max-width: 600px) {
+                .header .title-section {
+                    bottom: 15vw;;
+                }
+
+                .header .title-section .title {
+                    font-size: 9vw;
+                }
+            }
+
+            @media (max-width: 430px) {
+                .header {
+                    overflow: hidden;
+                }
+
+                .header .title-section {
+                    bottom: 18vw;
+                    left: 20px;
+                    right: 20px;
+                }
+
+                .header .avatar-container {
+                    margin-left: -40px;
+                    margin-right: -40px;
+                    margin-top: -40px;
+                }
+
+                .main {
+                    padding: 0 20px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="root">
+            <header class="header">
+                <div class="title-section">
+                    <h1 class="title">Dominic Pettifer</h1>
+                </div>
+                <figure class="avatar-container">
+                    <img class="avatar" alt="Dominic Pettifer's avatar image, a tiny hamster."
+                        title="Painting by Michael Rose, Twitter @mmistakes" src="avatar-large.jpeg"/>
+                </figure>
+            </header>
+
+            <main class="main">
+                <p>
+                    Hello. I'm a software developer living in Scotland. I build websites/webapps with ASP.NET MVC,
+                    Node.js, and Go, with React and Angular on the frontend.
+                </p>
+
+                <p>
+                    I work for <a target="_blank" href="https://adimo.co">Adimo</a>,
+                    a digital marketing company in Glasgow, Scotland.
+                </p>
+
+                <p>
+                    Checkout my website <a target="_blank" href="https://spiriteddrive.club">Spirited Drive</a>, a crowdsourced database of the world's
+                    best driving roads. I also have a <a target="_blank" href="https://www.youtube.com/channel/UCn7s3Ve8yW4ZKdZhrZhqrTg">YouTube channel</a>
+                    of the same name.
+                </p>
+
+                <p>
+                    Contact me on <a target="_blank" href="https://twitter.com/Sironfoot">Twitter</a>,
+                    or email me at <a href="mailto:sironfoot@gmail.com">sironfoot@gmail.com</a>
+                </p>
+            </main>
+        </div>
+    </body>
+</html>
